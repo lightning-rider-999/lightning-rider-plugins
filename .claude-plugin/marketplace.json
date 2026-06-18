@@ -1,0 +1,23 @@
+{
+  "name": "lightning-rider-plugins",
+  "owner": {
+    "name": "lightning-rider-999"
+  },
+  "description": "Thin agent-contract plugins that drive lightning-rider-999's self-hosted command-line tools. Each plugin ships skills only: it pre-approves the tool's binary, checks the binary is installed (pointing at the tool's installer if not), and discovers the live operation surface from the binary itself rather than bundling a snapshot that drifts.",
+  "plugins": [
+    {
+      "name": "stashbox",
+      "source": "./plugins/stashbox",
+      "description": "Drives the read-only `stashbox` CLI for querying a stash-box GraphQL instance (StashDB or any other) — scenes, performers, studios, tags, edits, drafts, fingerprints.",
+      "keywords": ["stash-box", "stashdb", "graphql", "cli", "read-only"],
+      "category": "data"
+    },
+    {
+      "name": "stash",
+      "source": "./plugins/stash",
+      "description": "Drives the `stash` CLI for querying and operating a Stash media server over its GraphQL API.",
+      "keywords": ["stash", "graphql", "cli", "media"],
+      "category": "data"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "stashbox",
+  "version": "0.1.0",
+  "description": "A read-only agent contract for the `stashbox` CLI: query a stash-box GraphQL instance (StashDB or any other) for scenes, performers, studios, tags, edits, drafts, and fingerprints.",
+  "author": {
+    "name": "lightning-rider-999"
+  },
+  "homepage": "https://github.com/lightning-rider-999/go-stashbox",
+  "repository": "https://github.com/lightning-rider-999/go-stashbox",
+  "license": "MIT",
+  "keywords": ["stash-box", "stashdb", "graphql", "cli", "read-only"]
+}

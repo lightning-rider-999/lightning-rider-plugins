@@ -1,0 +1,12 @@
+{
+  "name": "stash",
+  "version": "0.1.0",
+  "description": "An agent contract for the `stash` CLI: query and operate a Stash media server over its GraphQL API.",
+  "author": {
+    "name": "lightning-rider-999"
+  },
+  "homepage": "https://github.com/lightning-rider-999/go-stash",
+  "repository": "https://github.com/lightning-rider-999/go-stash",
+  "license": "MIT",
+  "keywords": ["stash", "graphql", "cli", "media"]
+}
